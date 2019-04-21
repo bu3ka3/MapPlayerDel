@@ -9,6 +9,6 @@ end
 
 function sampev.onPlayerStreamIn(id, team, model, pos, rot, color, fstyle)
 	if mpd then
-		return {id, team, model, pos, rot, -256, fstyle} -- выставляем color персонажа на -256
+		return {id, team, model, pos, rot, -256, fstyle} -- выставляем color персонажа на -25
 	end
 end
